@@ -1,0 +1,108 @@
+
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background: #e9f5ec;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .user-box {
+        max-width: 600px;
+        margin: auto;
+        padding: 30px;
+        background: #fff;
+        border-radius: 10px;
+        border-left: 6px solid #ffffff;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+        animation: fadeIn 0.4s ease-in-out;
+    }
+
+    .user-box h2 {
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 24px;
+        color: #198754;
+    }
+
+    .field {
+        margin-bottom: 20px;
+    }
+
+    .field label {
+        font-weight: 600;
+        font-size: 14px;
+        margin-bottom: 5px;
+        display: block;
+        color: #444;
+    }
+
+    .field span {
+        display: block;
+        padding: 10px 12px;
+        background: #f9f9f9;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        color: #222;
+    }
+
+    .permissions {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .checkbox-group {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+    .checkbox-group label {
+        display: flex;
+        align-items: center;
+        background: #e6f4eb;
+        border: 1px solid #c7e2d1;
+        border-radius: 6px;
+        padding: 8px 14px;
+        font-weight: 500;
+        color: #198754;
+        transition: 0.2s;
+        font-size: 14px;
+    }
+
+    .checkbox-group input[type="checkbox"] {
+        margin-right: 8px;
+        accent-color: #198754;
+    }
+
+    .back-link {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .back-link a {
+        text-decoration: none;
+        color: #198754;
+        font-weight: 600;
+    }
+
+    .back-link a:hover {
+        text-decoration: underline;
+    }
+
+    .status-active {
+        color: #198754;
+        font-weight: bold;
+    }
+
+    .status-inactive {
+        color: #dc3545;
+        font-weight: bold;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
